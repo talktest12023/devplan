@@ -1,29 +1,23 @@
-# Python
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-env/
+# Ignore Python virtual environments
 venv/
+env/
 devplan/
-*.sqlite3
+__pycache__/
+*.pyc
 
-# Node
-node_modules/
-dist/
-build/
-
-# React
+# Ignore React build
 react-ui/node_modules/
 react-ui/build/
 
-# OS
+# Ignore system and editor files
 .DS_Store
-Thumbs.db
-
-# VSCode
-.vscode/
-
-# Logs
 *.log
+*.swp
 
+# Ignore Python environment folders accidentally tracked
+bin/
+lib/
+lib64/
+share/
+include/
+pyvenv.cfg

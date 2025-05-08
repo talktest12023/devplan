@@ -1,0 +1,29 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+env/
+venv/
+devplan/
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+build/
+
+# React
+react-ui/node_modules/
+react-ui/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
